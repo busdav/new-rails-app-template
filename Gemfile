@@ -10,7 +10,7 @@ gem 'rails', '~> 5.1.2'
 
 group :production do
   # Use pg as the production database for Active Record
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
 end
 
 group :development do
@@ -33,8 +33,10 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-gem 'thor', '0.19.1'
+gem 'thor', '0.20.0'
 
 group :development do
   gem 'listen', '~> 3.0.5'
 end
+
+gem 'bootstrap-sass'
